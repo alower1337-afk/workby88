@@ -94,7 +94,7 @@ end
 
 -- GUI
 local gui = Instance.new("ScreenGui")
-gui.Name = "DotaNoobChatUI"
+gui.Name = "NoobChatUI"
 gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
 
@@ -115,7 +115,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -10, 0, 22)
 title.Position = UDim2.new(0, 5, 0, 4)
 title.BackgroundTransparency = 1
-title.Text = "DotaNoob!88!"
+title.Text = "DotaNoob!88! v2 (Тело ставится)"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 15
 title.TextColor3 = Color3.fromRGB(255,80,80)
