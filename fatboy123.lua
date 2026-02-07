@@ -503,7 +503,7 @@ player.CharacterAdded:Connect(function(char)
     char:WaitForChild("HumanoidRootPart")
     char:WaitForChild("Head")
     
-    task.wait(3) -- 3 секунды после респавна
+    task.wait(2) -- 3 секунды после респавна
     
     -- Применить скин если включено
     if autoApply and savedUsername ~= "" then
@@ -512,7 +512,7 @@ player.CharacterAdded:Connect(function(char)
     
     -- Применить DisplayName/Username через 1 секунду после респавна
     if savedDisplayName ~= "" or savedGameUsername ~= "" then
-        task.wait(1)
+        task.wait(2)
         changeNameTag(savedDisplayName, savedGameUsername)
     end
 end)
